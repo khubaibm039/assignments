@@ -7,10 +7,11 @@ body {
 }
 .btn-primary {
   color: #fff;
+  font-size: 20px;
   border-radius: 8px;
   background: #e55473;
   display: inline-flex;
-  padding: 20px 43px;
+  padding: 18px 31px;
   align-items: flex-start;
   gap: 10px;
   border: 0;
@@ -33,6 +34,7 @@ header {
   font-weight: 400;
   line-height: 30px;
   margin: 32px 0;
+  text-align: center;
 }
 
 .head-flower {
@@ -40,8 +42,9 @@ header {
   height: 800px;
   margin-left: 97px;
 }
-section {
-  margin: 178px 200px 0 200px;
+
+.section-main {
+  margin: 128px 240px 0px 240px;
 }
 .section-title {
   color: #272727;
@@ -52,7 +55,7 @@ section {
 .featured-flowers {
   text-align: center;
 }
-section > .pink-flower-tree {
+.section-main > .pink-flower-tree {
   display: flex;
   gap: 24px;
 }
@@ -69,6 +72,7 @@ section > .pink-flower-tree {
   width: 370px;
   height: 370px;
   padding: 110px 45px 50px;
+  margin-bottom: 32px;
 }
 .flower3 {
   background-color: rgba(71, 125, 17, 0.15);
@@ -76,4 +80,81 @@ section > .pink-flower-tree {
   width: 314px;
   height: 471px;
   padding: 60px 75px 0;
+  margin-bottom: 32px;
+}
+
+div > a {
+  display: block;
+  color: #272727;
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+}
+.about-support {
+  display: inline-flex;
+  text-align: center;
+  gap: 190px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 86px 175px;
+  border-radius: 8px;
+}
+.hot-deal {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 128px 0;
+  background-color: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
+  align-items: center;
+}
+.hot-deal-left {
+  text-align: center;
+}
+.instagram-image {
+  display: flex;
+  gap: 24px;
+}
+.get-the-deal {
+  text-align: center;
+  background-image: url("../Flower Asset/Rectangle 9.png");
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+  padding: 60px 0;
+  background-repeat: no-repeat;
+}
+
+input {
+  border-radius: 8px;
+  padding: 22px 510px 22px 22px;
+  border: 0;
+  margin-right: 16px;
+}
+.deals-email-sub {
+  margin: 48px 0;
+}
+
+.span-shop {
+  color: #e55473;
+}
+.span-flower {
+  color: #fff;
+}
+footer {
+  background-color: #111010;
+  padding: 128px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0 32px 0;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
 }
